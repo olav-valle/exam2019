@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e219779-2184-46e1-8a25-8d5c4e608968" name="Default Changelist" comment="Aid class mostly finished">
+    <list default="true" id="7e219779-2184-46e1-8a25-8d5c4e608968" name="Default Changelist" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam2019/Aid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam2019/Aid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam2019/AidCentral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam2019/AidCentral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam2019/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exam2019/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam2019/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576063442339</updated>
       <workItem from="1576063443801" duration="4212000" />
-      <workItem from="1576145030148" duration="13700000" />
+      <workItem from="1576145030148" duration="14498000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576063650225</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576160066930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done">
+      <created>1576168403199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576168403199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +162,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="setup ok" />
     <MESSAGE value="Aid class mostly finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aid class mostly finished" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="738" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1576064311270">
@@ -206,9 +210,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="236" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1576164941501" />
-    <state x="623" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1576162167922">
+    <state x="623" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1576185541337">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="211" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1576162167922" />
+    <state x="623" y="211" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1576185541337" />
   </component>
 </project>
