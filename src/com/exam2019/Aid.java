@@ -1,5 +1,7 @@
 package com.exam2019;
 
+import java.util.Iterator;
+
 /**
  * Class that represents a hearing aid item.
  */
@@ -32,13 +34,17 @@ public class Aid {
             this.aidType = type;
         }
         else{this.aidType = "INVALID_TYPE";}
-        //It would perhaps be a good idea to change aid types to a collection of enums, to ensure that aides of same type
-        // always have the same string.
+        //It would perhaps be a good idea to change aid types to a collection of enums,
+        // to ensure that aides of same type always have the same string describing them, i.e.
+        // if there are many aides of the same make/model, but they would still have unique aidID numbers.
 
         availableForRent = true; // a new aid is added to system with available status set to true.
+
         nameOfRenter = ""; //since aid is not rented, there is no renter name.
-        // Empty strings can be checked using String method nameOfRenter.isEmpty(), which we can use for if-checks later.
+        // Empty strings can be checked using the String class method isEmpty(), which we can use for if-checks later.
     }
+
+    //getters for all fields
 
     /**
      * Returns aid ID number.
@@ -64,8 +70,18 @@ public class Aid {
      */
     public boolean getRentalAvailability()
     {
-         return (availableForRent); // isRented = true means not available.
+         return (availableForRent); // availableForRent = true means available.
     }
+
+    /**
+     * Returns the name of the current renter of the aid.
+     * @return the name of the current renter of the aid
+     */
+    public String getNameOfRenter(){
+        return nameOfRenter;
+    }
+
+    //getter for a string describing the aid and its current properties.
     /**
      * Returns a string describing status and info about aid. String format is:
      * "3003 Varslingsutstyr utleid til Per Olsen" if aid is being rented,
@@ -108,12 +124,8 @@ public class Aid {
      */
     public void setRenterName(String nameOfNewRenter)
     {
-        //TODO do test if there is a current renter when a new one is set?
-
-        if(nameOfRenter.isEmpty())
-        {
-        }
-
+        //TODO add a test to check if there is a current renter when a new one is set?
+        nameOfRenter = nameOfNewRenter;
     }
 
     /**
@@ -124,5 +136,6 @@ public class Aid {
     public boolean compareID(Aid aid){
         return (this.aidID == aid.getAidID()); //true if ID matches aidID
     }
+
 
 }
